@@ -32,7 +32,7 @@ To integrate Fissure into your C project, follow these simple steps:
 To enable or disable features like debug mode, date printing, etc.:
 ```c
 fiss_enable(debug); // enable debug(only for debug output)
-fiss_disable()
+fiss_disable(time); // disable time printing
 ```
 
 ### Debugging and Logging
