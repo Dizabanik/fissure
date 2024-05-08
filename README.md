@@ -20,6 +20,9 @@ To integrate Fissure into your C project, follow these simple steps:
 
 `git clone https://github.com/dizabanik/fissure.git`
 
+2. Install [**Splash**](https://github.com/dizabanik/splash)
+`git clone https://github.com/dizabanik/splash & mv ./splash/ ./fissure/`
+
 **THAT'S IT! 😁**
 
 ## Usage
