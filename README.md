@@ -4,13 +4,11 @@ Welcome to **Fissure** - your cozy companion for debugging and logging in C! Whe
 
 ## Features
 
-- **Comfortable Debugging:** Keep track of your code's cozy levels with detailed debug messages.
-- **Snuggle Status:** Monitor the number of cuddly cats and their happiness level during snuggle sessions.
-- **Cozy Logging:** Stay informed about the current snuggling activity for each furry friend.
-- **Gentle Warnings:** Receive gentle warnings for potential disturbances during snuggle time.
-- **Graceful Error Handling:** Handle snuggle crises gracefully with error messages and necessary actions.
-- **Critical Cuddle Catastrophes:** In extreme situations, handle critical cuddle catastrophes with fatal errors and necessary actions.
-
+- **Detailed Debug Messages:** Keep track of your code's execution with comprehensive debug messages.
+- **Logging Functionality:** Stay informed about the status of your application with detailed logging capabilities.
+- **Warning Notifications:** Receive alerts for potential issues or disturbances in your application.
+- **Error Handling:** Handle errors gracefully with detailed error messages and appropriate actions.
+- **Critical Error Management:** Manage critical errors effectively with prompt notifications and necessary actions.
 ## Installation
 
 To integrate Fissure into your C project, follow these simple steps:
