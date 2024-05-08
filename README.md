@@ -67,7 +67,7 @@ fiss_errorv("%s", activity, "<- Current Activity!");
 // It's freezing, we can't go on like this!
 fiss_fatal(colorize("Cuddle catastrophe!", SPLASH_BOLD color24(230, 69, 83)), "Cats abandoned, happiness level critical");
 ```
-![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/1.png)
+![example](https://github.com/Dizabanik/fissure/blob/ef67699f2f3de0be489df1b7ae663acb59607348/1a.png)
 
 ### Configuration
 
