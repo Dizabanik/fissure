@@ -72,7 +72,7 @@ fiss_fatal(colorize("Cuddle catastrophe!", SPLASH_BOLD color24(230, 69, 83)), "C
 ### Configuration
 
 Customize Fissure's behavior by modifying the configuration macros in the `fiss.h` header file according to your preferences.
-Example(changing the `ERRO` text into `ERROR!`, making text bold and red, on green background): 
+Example(changing the `ERRO` text into `ERROR!`, making text white, on green background): 
 ```c
 // IN fiss.h
 
@@ -87,11 +87,11 @@ Example(changing the `ERRO` text into `ERROR!`, making text bold and red, on gre
 
 // You can change only one color mode if you are making your debugging only for one type of terminals
 
-#define FISS_ERROR_TEXT_COLOR_24 SPLASH_BOLD color24(210, 15, 57) bg24(64, 160, 43) // Green color rgb
+#define FISS_ERROR_TEXT_COLOR_24 color24(255, 255, 255) bg24(64, 160, 43) // Green color rgb
 
-#define FISS_ERROR_TEXT_COLOR_8 SPLASH_BOLD color8(160) bg8(34) // Green color 8-bit ID
+#define FISS_ERROR_TEXT_COLOR_8 color8(160) bg8(34) // Green color 8-bit ID
 
-#define FISS_ERROR_TEXT_COLOR_3 SPLASH_BOLD color3_4_var(SPLASH_COLOR_RED) bg3_4_var(SPLASH_COLOR_GREEN)
+#define FISS_ERROR_TEXT_COLOR_3 color3_4_var(SPLASH_COLOR_RED) bg3_4_var(SPLASH_COLOR_GREEN)
 
 //...
 
