@@ -346,9 +346,7 @@ Sets color mode for Fiss.
 
 ### Example:
 ```c
-f
-
-iss_set_color_mode(8);
+fiss_set_color_mode(8);
 ```
 
 ### Color modes:
