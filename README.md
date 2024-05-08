@@ -2,6 +2,8 @@
 
 Welcome to **Fissure** - your cozy companion for debugging and logging in C! Whether you're cuddling up with your code or navigating through debugging sessions, Fissure provides a warm and comfortable environment to enhance your development experience.
 
+![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/2.png)
+
 ## Features
 
 - **Detailed Debug Messages:** Keep track of your code's execution with comprehensive debug messages.
@@ -61,7 +63,7 @@ fiss_errorv("%s", activity, "<- Current Activity!");
 // It's freezing, we can't go on like this!
 fiss_fatal(colorize("Cuddle catastrophe!", SPLASH_BOLD color24(230, 69, 83)), "Cats abandoned, happiness level critical");
 ```
-
+![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/1.png)
 
 ### Configuration
 
@@ -90,7 +92,7 @@ Example(changing the `ERRO` text into `ERROR!`, making text bold and red, on gre
 //...
 
 ```
-
+![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/3.png)
 
 # FULL DOCUMENTATION FOR EVERY FUNCTION YOU WILL USE:
 
