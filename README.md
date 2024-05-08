@@ -96,7 +96,7 @@ Example(changing the `ERRO` text into `ERROR!`, making text bold and red, on gre
 //...
 
 ```
-![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/3.png)
+![example](https://github.com/Dizabanik/fissure/blob/277a36b9f97a956cbfaefb99f3c73f03c0c88bf3/2a.png)
 
 # FULL DOCUMENTATION FOR EVERY FUNCTION YOU WILL USE:
 
