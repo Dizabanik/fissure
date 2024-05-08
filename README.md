@@ -11,6 +11,7 @@ Welcome to **Fissure** - your cozy companion for debugging and logging in C! Whe
 - **Warning Notifications:** Receive alerts for potential issues or disturbances in your application.
 - **Error Handling:** Handle errors gracefully with detailed error messages and appropriate actions.
 - **Critical Error Management:** Manage critical errors effectively with prompt notifications and necessary actions.
+- **Colorful output:** Based on **Splash** library
 ## Installation
 
 To integrate Fissure into your C project, follow these simple steps:
