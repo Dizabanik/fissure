@@ -2,6 +2,8 @@
 
 Welcome to **Fissure** - your cozy companion for debugging and logging in C! Whether you're cuddling up with your code or navigating through debugging sessions, Fissure provides a warm and comfortable environment to enhance your development experience.
 
+**Fissure also has a CLI app that can be used like a normal application on linux.**
+
 ![example](https://github.com/Dizabanik/fissure/blob/0c15d7bb413f3daf1e50755ffcfe2c53398b0d88/2.png)
 
 ## Features
@@ -21,7 +23,21 @@ To integrate Fissure into your C project, follow these simple steps:
 `git clone https://github.com/dizabanik/fissure.git`
 
 2. Install [**Splash**](https://github.com/dizabanik/splash)
-`git clone https://github.com/dizabanik/splash & mv ./splash/ ./fissure/`
+`git clone https://github.com/dizabanik/splash ; mv ./splash/ ./fissure/`
+
+
+To install Fissure app if you want to use it, for example, in shell script or python:
+
+1. If you are using [**vWv**](https://github.com/Dizabanik/vWv):
+```bash
+vWv fissure
+```
+
+2. Without vWv:
+```bash
+git clone https://github.com/Dizabanik/fissure.git ; cd fissure ; sudo mv fiss /usr/local/bin/ ; cd ../ ; rm -rf fissure ; chmod +x /usr/local/bin/fiss
+```
+
 
 **THAT'S IT! 😁**
 
