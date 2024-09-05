@@ -1,11 +1,10 @@
-#include "fiss.h"
+#include <fiss/fiss.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 #include <stdarg.h>
-#include "splash.h"
+#include <splash/splash.h>
 #include <time.h>
-
 uint8_t _fiss_debug_enabled = 0;
 uint8_t _fiss_info_enabled = 1;
 uint8_t _fiss_warn_enabled = 1;
@@ -95,7 +94,7 @@ void _fiss_print_time_date0(FILE* stream_out){
 void _fiss_debug(const char* file, int line, ...){
 	if(_fiss_debug_enabled == 0) return;
 	va_list args;
-	uint16_t i = 0;
+
 	const char* arg = NULL;
 	const char* arg2 = NULL;
 	va_start(args, line);
@@ -405,7 +404,7 @@ void _fiss_debug(const char* file, int line, ...){
 void _fiss_info(const char* file, int line, ...){
 	if(_fiss_info_enabled == 0) return;
 	va_list args;
-	uint16_t i = 0;
+
 	const char* arg = NULL;
 	const char* arg2 = NULL;
 	va_start(args, line);
@@ -717,7 +716,7 @@ void _fiss_info(const char* file, int line, ...){
 void _fiss_warn(const char* file, int line, ...){
 	if(_fiss_warn_enabled == 0) return;
 	va_list args;
-	uint16_t i = 0;
+
 	const char* arg = NULL;
 	const char* arg2 = NULL;
 	va_start(args, line);
@@ -1029,7 +1028,7 @@ void _fiss_warn(const char* file, int line, ...){
 void _fiss_error(const char* file, int line, ...){
 	if(_fiss_error_enabled == 0) return;
 	va_list args;
-	uint16_t i = 0;
+
 	const char* arg = NULL;
 	const char* arg2 = NULL;
 	va_start(args, line);
@@ -1341,7 +1340,7 @@ void _fiss_error(const char* file, int line, ...){
 void _fiss_fatal(const char* file, int line, ...){
 	if(_fiss_fatal_enabled == 0) return;
 	va_list args;
-	uint16_t i = 0;
+
 	const char* arg = NULL;
 	const char* arg2 = NULL;
 	va_start(args, line);
