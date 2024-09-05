@@ -1,6 +1,6 @@
 #ifndef FISSURE_H
 #define FISSURE_H
-#include "splash.h"
+#include <splash/splash.h>
 
 
 // ---------CONFIGURATION---------
